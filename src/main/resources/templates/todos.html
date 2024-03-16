@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TODO</title>
+</head>
+<body>
+  <h1>TODO LIST</h1>
+
+
+  <table>
+    <thead>
+    <tr>
+      <th>내용</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="todo : ${todos}">
+      <td><span th:text="${todo.content}" /></td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>

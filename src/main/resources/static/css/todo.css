@@ -1,0 +1,45 @@
+body {
+    width: 500px;
+    height: fit-content;
+    min-height: 500px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: end;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.input {
+    width: 300px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.li_input {
+    display: flex;
+    width: 290px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+}
+
+.li_span {
+    width: 340px;
+}

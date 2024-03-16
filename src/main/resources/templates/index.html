@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO</title>
+
+    <script th:src="@{/js/todo.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/todo.css}" />
+</head>
+<body>
+
+    <div class="flex center m5">
+        <h1>TODO LIST</h1>
+    </div>
+
+    <div class="flex end m5">
+        <button id="searchBtn">조회</button>
+    </div>
+
+    <div class="flex center m5">
+        <input class="input" type="text" id="new_todo" />
+        <button id="addBtn">추가</button>
+    </div>
+
+    <div>
+        <ul class="ul" id="todo_list"></ul>
+    </div>
+
+</body>
+</html>
